@@ -1,5 +1,5 @@
 # WrfchemEmissionMaker
-基本上是一个读取wrfchem的初始场文件（即real.exe生成的wrfinput——的文件）的网格设置，然后生成对应的wrfchem所需排放源文件的脚本。
+基本上是一个读取wrfchem的初始场文件（即real.exe生成的wrfinput_d*的文件）的网格设置，然后生成对应的wrfchem所需排放源文件的脚本。
 
 生成的排放源格式：io_style_emissions= 1,emiss_inpt_opt=101。（相关含义不清楚的请参阅wrfchem的user guide)
 
