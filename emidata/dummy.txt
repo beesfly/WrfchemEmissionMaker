@@ -1,0 +1,20 @@
+Put Meic emission file here.
+e.g.
+©À©¤©¤ trapezoid_area.dat
+©À©¤©¤ 201612
+©¦   ©À©¤©¤ 2016_12__agriculture__BC.asc
+©¦   ©À©¤©¤ 2016_12__agriculture__BC.nc
+©¦   ©À©¤©¤ 2016_12__agriculture__BC.nc.aux.xml
+©¦   ©À©¤©¤ 2016_12__agriculture__CB05_ALD2.asc
+©¦   ©À©¤©¤ 2016_12__agriculture__CB05_ALD2.nc
+©¦   ©À©¤©¤ 2016_12__agriculture__CB05_ALD2.nc.aux.xml
+©¦   ©À©¤©¤ 2016_12__agriculture__CB05_ALDX.asc
+©¦   ©À©¤©¤ 2016_12__agriculture__CB05_ALDX.nc
+©¦   ©À©¤©¤ 2016_12__agriculture__CB05_ALDX.nc.aux.xml
+©¦   ©À©¤©¤ 2016_12__agriculture__CB05_ETHA.asc
+©¦   ©À©¤©¤ 2016_12__agriculture__CB05_ETHA.nc
+©¦   ©À©¤©¤ 2016_12__agriculture__CB05_ETHA.nc.aux.xml
+©¦   ©À©¤©¤ 2016_12__agriculture__CB05_ETH.asc
+©¦   ©À©¤©¤ 2016_12__agriculture__CB05_ETH.nc
+©¦   ©À©¤©¤ 2016_12__agriculture__CB05_ETH.nc.aux.xml
+.......
