@@ -23,7 +23,7 @@
 
 2.将wrfchem_emission_maker.py放入该目录。
 
-3.在工作目录下新建名为emidata、wrfinput、wrfchemi的三个目录
+3.在工作目录下新建名为emidata、wrfinput、wrfchemi的三个目录。其中emidata目录下需要放入trapezoid_area.dat文件和清华meic排放源。
 
 4.将从 http://www.meicmodel.org 下载的原始格式分月的meic排放源文件放入emidata文件夹。需要保证emidata下的文件夹命名为{YYYYMM}，如./201602.该月所有nc、asc和xml文件均直接位于{YYYYMM}文件夹下。
 
