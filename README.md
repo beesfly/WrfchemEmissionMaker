@@ -11,7 +11,7 @@
 
 保证计算机中已安装：
 
-1. ncl，版本6.3及以上。包扩ncl中自带程序WRAPIT，该程序可使ncl脚本调用fortran函数。
+1. ncl，版本6.3及以上。包括ncl中自带程序WRAPIT，该程序可使ncl脚本调用fortran函数。
 
 2. python3。推荐安装最新版本anaconda3。
 
