@@ -25,13 +25,13 @@
 
 3.在工作目录下新建名为emidata、wrfinput、wrfchemi的三个目录
 
-4.将在http://www.meicmodel.org下载的原始格式分月的meic排放源文件放入emidata文件夹。需要保证emidata下的文件夹命名为{YYYYMM}，如./201602.该月所有nc、asc和xml文件均直接位于{YYYYMM}文件夹下。
+4.将从 http://www.meicmodel.org 下载的原始格式分月的meic排放源文件放入emidata文件夹。需要保证emidata下的文件夹命名为{YYYYMM}，如./201602.该月所有nc、asc和xml文件均直接位于{YYYYMM}文件夹下。
 
 5.修改wrfchem_emission_maker.py文件中main函数内如下变量：
-例：base_year="2016"   #清华源数据年份
-    base_month="8"     #清华源数据月份
+例：base_year="2016"   #清华源原始数据年份
+    base_month="8"     #清华源原始数据月份
     program_dir="/home/IncubatorShokuhou/wrfchem_emission_maker" #python程序所在目录
-    wrfinput_path="/home/IncubatorShokuhou/wrfchem_emission_maker/wrfinput" #wrfinput所在目录
+    wrfinput_path="/home/IncubatorShokuhou/wrfchem_emission_maker/wrfinput" #wrfinput文件所在目录
     wrfchemi_out_path="/home/IncubatorShokuhou/wrfchem_emission_maker/wrfchemi" #排放源文件输出目录
 
 6.将执行real.exe后生成的wrfinput_d*文件移动至上一行确定的wrfinput_path目录，并添加.nc的后缀。
