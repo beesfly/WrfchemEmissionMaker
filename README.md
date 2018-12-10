@@ -29,7 +29,8 @@
 
 5.修改wrfchem_emission_maker.py文件中main函数内如下变量：
 
-例：base_year="2016"                                                                               #清华源原始数据年份
+例：
+    base_year="2016"                                                                               #清华源原始数据年份
 
     base_month="8"                                                                                 #清华源原始数据月份
 
