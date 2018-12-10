@@ -1,5 +1,5 @@
 # WrfchemEmissionMaker
-基本上是一个读取wrfchem的初始场文件（即real.exe生成的wrfinput文件）的网格设置，然后生成对应的wrfchem所需排放源文件的脚本。
+基本上是一个读取wrfchem的初始场文件（即real.exe生成的wrfinput——的文件）的网格设置，然后生成对应的wrfchem所需排放源文件的脚本。
 
 生成的排放源格式：io_style_emissions= 1,emiss_inpt_opt=101。（相关含义不清楚的请参阅wrfchem的user guide)
 
@@ -11,7 +11,7 @@
 
 保证计算机中已安装：
 
-1. ncl，版本6.3及以上。包扩ncl中自带程序WRAPIT，该程序可使ncl脚本调用一个fortran函数。
+1. ncl，版本6.3及以上。包扩ncl中自带程序WRAPIT，该程序可使ncl脚本调用fortran函数。
 
 2. python3。推荐安装最新版本anaconda3。
 
